@@ -5,13 +5,28 @@ Node v16
 
 ### Running project
 In root folder
+```
+nvm use
+```
+ to set node version
 
-nvm use to set node version
-npm i to install dependencies
+```
+npm i
+```
+to install dependencies
 
-docker-compose up : fires up mongoDB and mongo-express.
+```
+docker-compose up
+```
+fires up mongoDB and mongo-express.
 npm start
 
+### Running tests
+```
+npm test
+```
+### Notes
 To check db navigate to http://localhost:8081/db/rick-morty-explorer/
 
-To check api docs navigate to to http://localhost:3001/doc
+To check api docs navigate to to http://localhost:3001/docs
+
