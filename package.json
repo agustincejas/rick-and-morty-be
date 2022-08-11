@@ -1,0 +1,27 @@
+{
+  "name": "rick-and-morty-be",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest --watchAll --collectCoverage"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.1",
+    "morgan": "~1.9.1",
+    "swagger-jsdoc": "^6.2.4",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "jest": "^28.1.3"
+  }
+}
